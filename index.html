@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAKA — Entreprise Générale du Bâtiment</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#accueil" class="nav-logo">
+        <span class="logo-s">S</span>AKA
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#accueil" class="nav-link">Accueil</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#apropos" class="nav-link">À propos</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="tel:+33767716914" class="btn btn-nav">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        07 67 71 69 14
+      </a>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <p class="hero-eyebrow">Entreprise Générale du Bâtiment</p>
+      <h1 class="hero-title">Bâtissons ensemble<br /><span>votre projet</span></h1>
+      <p class="hero-sub">De la maçonnerie à la plomberie, nous prenons en charge l'intégralité de vos travaux avec expertise et sérieux à Aulnay-sous-Bois et alentours.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Demander un devis gratuit</a>
+        <a href="#services" class="btn btn-ghost">Nos services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Corps de métier</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Satisfaction client</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">93</span>
+          <span class="stat-label">Seine-Saint-Denis</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Ce que nous faisons</p>
+        <h2 class="section-title">Nos corps de métier</h2>
+        <p class="section-sub">Une équipe polyvalente pour tous vos travaux, du gros œuvre aux finitions.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="40" width="48" height="12" rx="2" fill="currentColor" opacity=".15"/>
+              <rect x="14" y="28" width="36" height="14" rx="2" fill="currentColor" opacity=".3"/>
+              <polygon points="32,8 6,28 58,28" fill="currentColor" opacity=".8"/>
+              <rect x="26" y="40" width="12" height="12" rx="1" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Maçonnerie</h3>
+          <p>Construction, rénovation, démolition, fondations, murs porteurs, enduits et crépis. Nous intervenons sur tous types de chantiers.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="20" height="20" rx="2" fill="currentColor" opacity=".5"/>
+              <rect x="36" y="8" width="20" height="20" rx="2" fill="currentColor" opacity=".8"/>
+              <rect x="8" y="36" width="20" height="20" rx="2" fill="currentColor" opacity=".8"/>
+              <rect x="36" y="36" width="20" height="20" rx="2" fill="currentColor" opacity=".5"/>
+              <line x1="28" y1="8" x2="28" y2="56" stroke="white" stroke-width="2"/>
+              <line x1="8" y1="28" x2="56" y2="28" stroke="white" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Carrelage</h3>
+          <p>Pose de carrelage sol et mur, faïence, mosaïque, terrasse. Préparation des supports et finitions soignées pour un rendu impeccable.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="32,4 4,28 60,28" fill="currentColor" opacity=".8"/>
+              <rect x="10" y="28" width="44" height="6" rx="1" fill="currentColor" opacity=".4"/>
+              <line x1="32" y1="28" x2="32" y2="4" stroke="currentColor" stroke-width="3" opacity=".5"/>
+              <line x1="18" y1="28" x2="25" y2="16" stroke="currentColor" stroke-width="2" opacity=".4"/>
+              <line x1="46" y1="28" x2="39" y2="16" stroke="currentColor" stroke-width="2" opacity=".4"/>
+            </svg>
+          </div>
+          <h3>Charpente</h3>
+          <p>Charpente traditionnelle et industrielle, structure bois, rénovation et remplacement de charpente, traitement du bois.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 30 Q32 10 56 30" stroke="currentColor" stroke-width="4" fill="none" opacity=".4"/>
+              <path d="M10 36 Q32 18 54 36" stroke="currentColor" stroke-width="4" fill="none" opacity=".6"/>
+              <path d="M12 42 Q32 24 52 42" stroke="currentColor" stroke-width="4" fill="none" opacity=".8"/>
+              <path d="M14 48 Q32 30 50 48" stroke="currentColor" stroke-width="4" fill="none"/>
+              <path d="M8 30 L10 36 L12 42 L14 48 L8 48 Z" fill="currentColor" opacity=".3"/>
+              <path d="M56 30 L54 36 L52 42 L50 48 L56 48 Z" fill="currentColor" opacity=".3"/>
+            </svg>
+          </div>
+          <h3>Couverture</h3>
+          <p>Pose et réfection de toiture, tuiles, ardoises, zinc, étanchéité, gouttières et évacuations. Intervention rapide en cas de fuite.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="12" width="48" height="40" rx="3" fill="currentColor" opacity=".1"/>
+              <rect x="14" y="18" width="16" height="28" rx="1" fill="currentColor" opacity=".5"/>
+              <rect x="34" y="18" width="16" height="28" rx="1" fill="currentColor" opacity=".5"/>
+              <rect x="8" y="12" width="48" height="6" rx="2" fill="currentColor" opacity=".7"/>
+              <rect x="8" y="46" width="48" height="6" rx="2" fill="currentColor" opacity=".7"/>
+            </svg>
+          </div>
+          <h3>Revêtements sols & murs</h3>
+          <p>Parquet, stratifié, vinyle, moquette, peinture, papier peint, enduits décoratifs. Toutes finitions intérieures pour sublimer vos espaces.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="16" r="8" fill="currentColor" opacity=".3"/>
+              <rect x="28" y="24" width="8" height="20" rx="2" fill="currentColor" opacity=".6"/>
+              <path d="M20 44 Q32 38 44 44 L44 56 Q32 50 20 56 Z" fill="currentColor" opacity=".8"/>
+              <circle cx="32" cy="16" r="4" fill="currentColor"/>
+              <path d="M36 20 C42 22 46 30 46 38" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" opacity=".5"/>
+            </svg>
+          </div>
+          <h3>Plomberie</h3>
+          <p>Installation sanitaire, salle de bain, cuisine, dépannage, recherche de fuite, remplacement de canalisations et robinetterie.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section class="apropos" id="apropos">
+    <div class="container apropos-grid">
+      <div class="apropos-visual">
+        <div class="apropos-badge">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          <span>Devis gratuit & sans engagement</span>
+        </div>
+        <div class="apropos-card-stack">
+          <div class="apropos-card apropos-card--back"></div>
+          <div class="apropos-card apropos-card--front">
+            <div class="apropos-icon-grid">
+              <div class="ai-item">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+              </div>
+              <div class="ai-item">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              </div>
+              <div class="ai-item">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 6h-2.18c.07-.44.18-.88.18-1.36C18 2.51 16.49 1 14.64 1 13.11 1 12.12 1.85 11 3.09 9.88 1.85 8.89 1 7.36 1 5.51 1 4 2.51 4 4.64c0 .48.11.92.18 1.36H2c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM7.36 3c.91 0 1.65.74 1.65 1.64 0 .91-.74 1.65-1.65 1.65s-1.65-.74-1.65-1.65C5.71 3.74 6.45 3 7.36 3zm4.99 15H6v-2h6.35v2zm0-4H6v-2h6.35v2zm0-4H6V8h6.35v2zm4.3 8H13v-2h3.65v2zm0-4H13v-2h3.65v2zm0-4H13V8h3.65v2zm1.99-4c-.91 0-1.65-.74-1.65-1.65 0-.9.74-1.64 1.65-1.64s1.65.74 1.65 1.64c0 .91-.74 1.65-1.65 1.65z"/></svg>
+              </div>
+              <div class="ai-item">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+            </div>
+            <p class="apropos-card-label">Tous corps d'état</p>
+          </div>
+        </div>
+      </div>
+      <div class="apropos-content">
+        <p class="section-eyebrow">Qui sommes-nous</p>
+        <h2 class="section-title">Un interlocuteur unique pour tous vos travaux</h2>
+        <p>SAKA est une entreprise générale du bâtiment implantée à Aulnay-sous-Bois, en Seine-Saint-Denis. Nous accompagnons particuliers et professionnels dans leurs projets de construction et de rénovation, du premier coup de pioche aux finitions.</p>
+        <p>Notre force : une équipe pluridisciplinaire qui maîtrise l'ensemble des corps de métier. Fini les complications liées à la coordination de multiples artisans — vous avez un seul contact, une seule responsabilité.</p>
+        <ul class="apropos-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            Devis gratuit sous 48h
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            Respect des délais et du budget
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            Garantie décennale
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            Intervention sur toute l'Île-de-France
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Nous contacter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header section-header--light">
+        <p class="section-eyebrow section-eyebrow--light">Parlons de votre projet</p>
+        <h2 class="section-title">Contactez-nous</h2>
+        <p class="section-sub">Devis gratuit et sans engagement. Réponse sous 48h.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">Téléphone</p>
+              <a href="tel:+33767716914" class="contact-value">+33 7 67 71 69 14</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">Adresse</p>
+              <p class="contact-value">7 place de l'Hôtel de Ville<br />93600 Aulnay-sous-Bois</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">Disponibilité</p>
+              <p class="contact-value">Lun – Sam : 8h – 19h</p>
+            </div>
+          </div>
+          <div class="map-placeholder">
+            <iframe
+              title="Localisation SAKA"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=2.4830%2C48.9310%2C2.4950%2C48.9390&layer=mapnik&marker=48.9350%2C2.4890"
+              style="border:0; width:100%; height:100%;"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prenom">Prénom</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Jean" required />
+            </div>
+            <div class="form-group">
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" placeholder="Dupont" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="tel">Téléphone</label>
+            <input type="tel" id="tel" name="tel" placeholder="06 00 00 00 00" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="jean@exemple.fr" />
+          </div>
+          <div class="form-group">
+            <label for="service">Corps de métier concerné</label>
+            <select id="service" name="service">
+              <option value="">-- Sélectionnez --</option>
+              <option>Maçonnerie</option>
+              <option>Carrelage</option>
+              <option>Charpente</option>
+              <option>Couverture</option>
+              <option>Revêtements sols & murs</option>
+              <option>Plomberie</option>
+              <option>Plusieurs corps de métier</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Décrivez votre projet</label>
+            <textarea id="message" name="message" rows="5" placeholder="Décrivez vos travaux, la surface, le type de bien…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Envoyer ma demande</button>
+          <div class="form-success" id="form-success">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            Votre demande a bien été envoyée ! Nous vous recontacterons sous 48h.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo"><span class="logo-s">S</span>AKA</span>
+        <p>Entreprise générale du bâtiment — Aulnay-sous-Bois (93)</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:+33767716914">07 67 71 69 14</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 SAKA. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
